@@ -134,7 +134,7 @@ private:
     else
       stat.summary(2, "Joystick not open.");
 
-    stat.add("topic", pub_.getTopic());
+    //stat.add("topic", pub_.getTopic());
     stat.add("device", joy_dev_);
     stat.add("dead zone", deadzone_);
     stat.add("autorepeat rate (Hz)", autorepeat_rate_);
